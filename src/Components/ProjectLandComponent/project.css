@@ -1,0 +1,21 @@
+.project-land{
+    width: 80vw ;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 5px 5px 10px #8f8e8d;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.project-land h1{
+    text-decoration: underline;
+}
+
+.project-containt{
+    height: 80vw;
+    overflow: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 5px;
+    grid-template-rows: auto;
+}
